@@ -45,7 +45,7 @@ def persist_embedding():
     start = time.time()
     for idx,row in cpt_df.iterrows():
         try:
-            embeddings = ClinicalBert_embeddings(row["FULL_DESCRIPTION"])
+            embeddings = ClinicalBert_embeddings(row["FULL_DESCRIPTION"]) #TODO: Pre-processed text inputs
         except Exception as ex:
             logger.error(f"Error: {ex} Occurred")
             continue

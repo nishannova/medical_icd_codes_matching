@@ -27,7 +27,7 @@ def match_similarity(ocr_df):
         code=[]
         for _,row in new_df1.iterrows():
             sim_dict=dict()
-            cls_emb=ClinicalBert_embeddings(row["text"], tokenizer, model)
+            cls_emb=ClinicalBert_embeddings(row["text"], tokenizer, model) #TODO: Pre-process text
             for i in pkl_dict:
                 s=cosine_similarity(cls_emb.detach().numpy().reshape(1,-1),pkl_dict[i].detach().numpy().reshape(1,-1))[0][0]
                 sim_dict[i]=s
