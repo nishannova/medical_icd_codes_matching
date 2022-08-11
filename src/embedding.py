@@ -5,15 +5,16 @@ import numpy as np
 import pandas as pd
 from transformers import BertTokenizer, BertModel, AutoTokenizer, AutoModel
 import torch
-
+import re
 import logging as logger
 logger.getLogger().setLevel(logger.INFO)
-
+import string
 import os
 import gc
 import time
-
+from utils import clean_text
 from config import CPT_CODE_FILE, PICKLE_FOLDER
+
 
 def persist_embedding():
     def ClinicalBert_embeddings(text):
@@ -24,16 +25,24 @@ def persist_embedding():
         cls_embeddings = embeddings_of_last_layer[0][0]
         
         return cls_embeddings
+    
     start = time.time()
     start_1 = time.time()
     cpt_df=pd.read_excel(CPT_CODE_FILE)
+    
+    ###### Preprocessing the Full Description column
+    cpt_df["FULL_DESCRIPTION"] = cpt_df["FULL_DESCRIPTION"].apply(clean_text)
+    
+    
+    
     logger.info(cpt_df.head())
 
     pickle_path = PICKLE_FOLDER
     tokenizer = AutoTokenizer.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
     model = AutoModel.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
 
-
+    
+    
     input_ids = torch.tensor(tokenizer.encode(cpt_df["FULL_DESCRIPTION"].values[0])).unsqueeze(0)
     outputs = model(input_ids)
     embeddings_of_last_layer=outputs[0]
@@ -45,6 +54,7 @@ def persist_embedding():
     start = time.time()
     for idx,row in cpt_df.iterrows():
         try:
+            
             embeddings = ClinicalBert_embeddings(row["FULL_DESCRIPTION"]) #TODO: Pre-processed text inputs
         except Exception as ex:
             logger.error(f"Error: {ex} Occurred")

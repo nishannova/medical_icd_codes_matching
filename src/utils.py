@@ -8,6 +8,9 @@ import re
 import pandas as pd
 from transformers import BertTokenizer, BertModel, AutoTokenizer, AutoModel
 import torch
+import nltk
+from nltk.corpus import stopwords
+import string
 
 def rename_images(image_path, folder_path):
     try:
@@ -66,3 +69,23 @@ def ClinicalBert_embeddings(text, tokenizer, model):
     cls_embeddings = embeddings_of_last_layer[0][0]
     
     return cls_embeddings
+
+stemmer = nltk.SnowballStemmer("english")
+stopword=set(stopwords.words('english'))
+
+
+def clean_text(text):
+    text = str(text).lower()
+    text = re.sub('\[.*?\]', '', text)
+    text = re.sub('https?://\S+|www\.\S+', '', text)
+    text = re.sub('<.*?>+', '', text)
+    text = re.sub('[%s]' % re.escape(string.punctuation), '', text)
+    text = re.sub('\n', '', text)
+    text = re.sub('\w*\d\w*', '', text)     # /w* Matches Unicode word characters; 
+    text = re.compile('[/(){}\[\]\|@,;]').sub(' ', text)
+    text = re.compile('[^0-9a-z #+_]').sub('', text)  
+    text = [word for word in text.split(' ') if word not in stopword]
+    text=" ".join(text)
+    text = [stemmer.stem(word) for word in text.split(' ')]    ## POS tagger ###Change to lemmetization 
+    text=" ".join(text)
+    return text

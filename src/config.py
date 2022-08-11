@@ -2,7 +2,7 @@ import os
 
 #Configs
 
-DATA_ROOT = "/Users/sali115/text_mapping/data"
+DATA_ROOT = "/Users/Abhishek/Desktop/nishan_sir_work/HEalth NLP/medical_icd_codes_matching-main/data"
 RAW_FOLDER = os.path.join(DATA_ROOT, "raw")
 doc_name = "Exclusions - non-VIP 5.2.pdf"
 FILENAME = os.path.join(RAW_FOLDER, doc_name)
