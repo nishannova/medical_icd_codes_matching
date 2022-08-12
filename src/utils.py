@@ -11,6 +11,9 @@ import torch
 import nltk
 from nltk.corpus import stopwords
 import string
+from nltk.stem import WordNetLemmatizer
+
+from nltk.tokenize import  sent_tokenize
 
 def rename_images(image_path, folder_path):
     try:
@@ -70,14 +73,15 @@ def ClinicalBert_embeddings(text, tokenizer, model):
     
     return cls_embeddings
 
-stemmer = nltk.SnowballStemmer("english")
+# stemmer = nltk.SnowballStemmer("english")
 stopword=set(stopwords.words('english'))
 
+lemmatizer = WordNetLemmatizer()
 
 def clean_text(text):
     text = str(text).lower()
     text = re.sub('\[.*?\]', '', text)
-    text = re.sub('https?://\S+|www\.\S+', '', text)
+    # text = re.sub('https?://\S+|www\.\S+', '', text)
     text = re.sub('<.*?>+', '', text)
     text = re.sub('[%s]' % re.escape(string.punctuation), '', text)
     text = re.sub('\n', '', text)
@@ -86,6 +90,17 @@ def clean_text(text):
     text = re.compile('[^0-9a-z #+_]').sub('', text)  
     text = [word for word in text.split(' ') if word not in stopword]
     text=" ".join(text)
-    text = [stemmer.stem(word) for word in text.split(' ')]    ## POS tagger ###Change to lemmetization 
+    tokenized = sent_tokenize(text)
+    for i in tokenized:
+        words = nltk.word_tokenize(i)
+        tag = nltk.pos_tag(words)
+    l = ['NNP', 'NNS', 'NN', 'RB', 'JJ', 'VBG', "CD"]
+    text_new = []
+    for i in tag:
+        if i[1]  in l:
+            text_new.append(i[0])
+
+    text = [lemmatizer.lemmatize(word) for word in text_new]    ## POS tagger ###Change to lemmetization 
     text=" ".join(text)
     return text
+
