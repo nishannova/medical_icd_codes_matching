@@ -21,6 +21,7 @@ def split_doc_into_pages():
                                     output_folder=output_folder,
                                     paths_only=True,
                                     fmt="png",
-                                    output_file="page")
+                                    output_file="page",
+                                    )
     for image_path in image_paths:
         rename_images(image_path, output_folder)

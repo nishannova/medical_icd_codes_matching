@@ -18,6 +18,7 @@ def run():
     logger.info(f"\nSPLITTING DOC TOOK: {time.time() - start} Secs.\n")
     start_1 = time.time()
     ocr_df = get_processed_ocr_df()
+    print(f"OCR HEAD\n{ocr_df.head()}")
     logger.info(f"\nBUILDING OCR DATA-FRAME TOOK: {time.time() - start_1} Secs.\n")
     start_1 = time.time()
     persist_embedding()

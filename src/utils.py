@@ -79,6 +79,7 @@ stopword=set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
 def clean_text(text):
+    tag = None
     text = str(text).lower()
     text = re.sub('\[.*?\]', '', text)
     # text = re.sub('https?://\S+|www\.\S+', '', text)
@@ -96,9 +97,10 @@ def clean_text(text):
         tag = nltk.pos_tag(words)
     l = ['NNP', 'NNS', 'NN', 'RB', 'JJ', 'VBG', "CD"]
     text_new = []
-    for i in tag:
-        if i[1]  in l:
-            text_new.append(i[0])
+    if tag:
+        for i in tag:
+            if i[1]  in l:
+                text_new.append(i[0])
 
     text = [lemmatizer.lemmatize(word) for word in text_new]    ## POS tagger ###Change to lemmetization 
     text=" ".join(text)

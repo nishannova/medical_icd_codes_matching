@@ -1,0 +1,206 @@
+,page,line,text,CODE,Matched_Description
+0,9,2,expense related immunomodulators,4012F,Warfarin therapy prescribed (NMA-No Measure Associated)
+1,9,3,expense treatment sleep disorder,3725F,Screening for depression performed (DEM)
+2,9,4,service educational program handicap,4500F,Referred to an outpatient cardiac rehabilitation program (CAD)
+3,9,5,,84143,17-hydroxypregnenolone
+4,9,6,injury illness insured person result military operation type,95170,Professional services for the supervision of preparation and provision of antigens for allergen immunotherapy; whole body extract of biting insect or other arthropod (specify number of doses)
+5,9,7,injury illness insured person result war terror type,6045F,"Radiation exposure or exposure time in final report for procedure using fluoroscopy, documented (RAD)"
+6,9,8,healthcare service accident arising nuclear chemical contamination,55860,"Exposure of prostate, any approach, for insertion of radioactive substance"
+7,9,9,injury resulting natural disaster including limited earthquake type natural disaster,77778,"Interstitial radiation source application, complex, includes supervision, handling, loading of radiation source, when performed"
+8,9,10,injury resulting criminal act resisting authority person,36405,"Venipuncture, younger than age 3 years, necessitating the skill of a physician or other qualified health care professional, not to be used for routine venipuncture; scalp vein"
+9,9,11,injury resulting road traffic accident,48545,Pancreatorrhaphy for injury
+10,9,12,healthcare service work related illness injury federal law,77399,"Unlisted procedure, medical radiation physics, dosimetry and treatment devices, and special services"
+11,9,13,concerning regulation work relation amendment applicable law,96368,"Intravenous infusion, for therapy, prophylaxis, or diagnosis (specify substance or drug); concurrent infusion (List separately in addition to code for primary procedure)"
+12,9,14,case resulting use alcoholic drink substance drug hallucinating substance,3016F,Patient screened for unhealthy alcohol use using a systematic screening method (PV) (DSP)
+13,9,15,investigation treatment doctor,97150,"Therapeutic procedure(s), group (2 or more individuals)"
+14,9,16,injury resulting attempted suicide injury,48545,Pancreatorrhaphy for injury
+15,9,17,diagnosis treatment service complication illness,97150,"Therapeutic procedure(s), group (2 or more individuals)"
+16,9,18,healthcare service internationally locally epidemic,92325,"Modification of contact lens (separate procedure), with medical supervision of adaptation"
+17,9,19,healthcare service patient suffering related diagnosis treatment hiv aid complication type virus hepatitis,96904,"Whole body integumentary photography, for monitoring of high risk patients with dysplastic nevus syndrome or a history of dysplastic nevi, or patients with a personal or familial history of melanoma"
+0,8,2,elective diagnostic service medical treatment correction vision,43285,Removal of esophageal sphincter augmentation device
+1,8,3,nasal septum deviation nasal concha resection,31240,"Nasal/sinus endoscopy, surgical; with concha bullosa resection"
+2,8,4,chronic condition requiring hemodialysis peritoneal dialysis related investigation treatment procedure,90947,"Dialysis procedure other than hemodialysis (eg, peritoneal dialysis, hemofiltration, or other continuous renal replacement therapies) requiring repeated evaluations by a physician or other qualified health care professional, with or without substantial revision of dialysis prescription"
+3,8,5,healthcare service investigation treatment related viral hepatitis complication treatment service hepatitis,90945,"Dialysis procedure other than hemodialysis (eg, peritoneal dialysis, hemofiltration, or other continuous renal replacement therapies), with single evaluation by a physician or other qualified health care professional"
+4,8,6,service birth defect congenital disease deformity,69320,"Reconstruction external auditory canal for congenital atresia, single stage"
+5,8,7,healthcare service senile dementia alzheimers,90714,"Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
+6,8,8,air terrestrial medical evacuation unauthorized transportation service,4084F,Aspirin received within 24 hours before emergency department arrival or during emergency department stay (EM)
+7,8,9,inpatient treatment prior approval insurance company including case medical emergency hour date admission,49587,"Repair umbilical hernia, age 5 years or older; incarcerated or strangulated"
+8,8,10,inpatient treatment investigation procedure outpatient basis jeopardizing insured person health,90935,Hemodialysis procedure with single evaluation by a physician or other qualified health care professional
+9,8,11,investigation health service non medical purpose investigation related employment travel licensing insurance purpose,93272,"External patient and, when performed, auto activated electrocardiographic rhythm derived event recording with symptom-related memory loop with remote download capability up to 30 days, 24-hour attended monitoring; review and interpretation by a physician or other qualified health care professional"
+10,8,12,supply medical treatment including limited mouthwash toothpaste antiseptic milk food supplement care product multivitamin prescribed replacement therapy vitamin deficiency condition equipment primarily medical condition injury including limited air conditioner purifying system arch support exercise equipment sanitary supply,99002,"Handling, conveyance, and/or any other service in connection with the implementation of an order involving devices (eg, designing, fitting, packaging, handling, delivery or mailing) when devices such as orthotics, protectives, prosthetics are fabricated by an outside laboratory or shop but which items have been designed, and are to be fitted and adjusted by the attending physician or other qualified health care professional"
+11,8,13,one consultation medical specialist single day treating physician,95782,"Polysomnography; younger than 6 years, sleep staging with 4 or more additional parameters of sleep, attended by a technologist"
+12,8,14,health service expense organ tissue transplant insured person donor recipient,47135,"Liver allotransplantation, orthotopic, partial or whole, from cadaver or living donor, any age"
+13,8,15,exclusion also followup treatment complication,20661,"Application of halo, including removal; cranial"
+0,6,2,dubai northern nonvip exclusion,81209,"BLM (Bloom syndrome, RecQ helicase-like) (eg, Bloom syndrome) gene analysis, 2281del6ins7 variant"
+1,6,3,healthcare service medically necessary,99359,Prolonged evaluation and management service before and/or after direct patient care; each additional 30 minutes (List separately in addition to code for prolonged service)
+2,6,4,expense relating dental treatment dental prosthesis orthodontic treatment,51600,Injection procedure for cystography or voiding urethrocystography
+3,6,5,home nursing private nursing care care sake travelling,99504,Home visit for mechanical ventilation care
+4,6,6,custodial care including nonmedical treatment service service improve result change medical condition patient,96161,"Administration of caregiver-focused health risk assessment instrument (eg, depression inventory) for the benefit of the patient, with scoring and documentation, per standardized instrument"
+5,6,7,service continuous administration medical personnel,99056,"Service(s) typically provided in the office, provided out of the office at request of patient, in addition to basic service"
+6,6,8,personal comfort convenience item television beauty service service similar incidental service supply,99070,"Supplies and materials (except spectacles), provided by the physician or other qualified health care professional over and above those usually included with the office visit or other services rendered (list drugs, trays, supplies, or materials provided)"
+7,6,9,cosmetic healthcare service service replacement existing breast implant,25449,"Revision of arthroplasty, including removal of implant, wrist joint"
+8,6,10,cosmetic operation related injury sickness congenital anomaly primary purpose physiological functioning part body breast reconstruction following mastectomy cancer,59855,"Induced abortion, by 1 or more vaginal suppositories (eg, prostaglandin) with or without cervical dilation (eg, laminaria), including hospital admission and visits, delivery of fetus and secundines"
+9,6,11,surgical nonsurgical treatment obesity including morbid obesity control program service supply,27256,"Treatment of spontaneous hip dislocation (developmental, including congenital or pathological), by abduction, splint or traction; without anesthesia, without manipulation"
+10,6,12,medical service utilized research medically experiment investigation pharmacological weight reduction regimen,0519F,"Planned chemotherapy regimen, including at a minimum: drug(s) prescribed, dose, and duration, documented prior to initiation of a new treatment regimen (ONC)"
+11,6,13,healthcare service authorized healthcare service provider,99288,"Physician or other qualified health care professional direction of emergency medical systems (EMS) emergency care, advanced life support"
+12,6,14,healthcare service expense treatment alopecia baldness hair falling dandruff wig,96922,Laser treatment for inflammatory skin disease (psoriasis); over 500 sq cm
+0,14,2,hormone replacement therapy hormonal investigation,00104,Anesthesia for electroconvulsive therapy
+1,14,3,air ambulance service,99026,"Hospital mandated on call service; in-hospital, each hour"
+2,14,4,registration fee treatment service medically necessary,99359,Prolonged evaluation and management service before and/or after direct patient care; each additional 30 minutes (List separately in addition to code for prolonged service)
+0,15,2,na general pharmacy exclusion,3725F,Screening for depression performed (DEM)
+1,15,3,appetite suppressant andor stimulant,4016F,"Anti-inflammatory/analgesic agent prescribed (OA) (Use for prescribed or continued medication[s], including over-the-counter medication[s])"
+2,15,4,cosmetic containing antifungal agent,51720,Bladder instillation of anticarcinogenic agent (including retention time)
+3,15,5,hair tonic moisturizers cleansing lotion,29358,Application of long leg cast brace
+4,15,6,cleansing solution sea water preparation ocean spray tonimer etc,97034,"Application of a modality to 1 or more areas; contrast baths, each 15 minutes"
+5,15,7,,84143,17-hydroxypregnenolone
+6,15,8,contraceptive form,92572,Staggered spondaic word test
+7,15,9,infertility drug,86155,"Chemotaxis assay, specify method"
+8,15,10,nonmedical item milk sustagen paste lozenge aid antiseptic cottonrolls,92312,"Prescription of optical and physical characteristics of and fitting of contact lens, with medical supervision of adaptation; corneal lens for aphakia, both eyes"
+9,15,11,slimming product,29730,Windowing of cast
+10,15,12,dental product zymaflour dental floss etc,4120F,"Antibiotic prescribed or dispensed (URI, PHAR), (A-BRONCH)"
+11,15,13,,84143,17-hydroxypregnenolone
+12,15,14,sexual disorder drug,3700F,Psychiatric disorders or disturbances assessed (Prkns)
+13,15,15,lidocaine patch rollons,4012F,Warfarin therapy prescribed (NMA-No Measure Associated)
+14,15,16,rubefacient rub polar frost similarity,85652,"Sedimentation rate, erythrocyte; automated"
+15,15,17,medicine containing montelukasts bronchial asthma,4140F,Inhaled corticosteroids prescribed (Asthma)
+16,15,18,liver tonicsextracts essentiale sylimarine legalon,4012F,Warfarin therapy prescribed (NMA-No Measure Associated)
+17,15,19,lubricant eye drop dry eye,15823,"Blepharoplasty, upper eyelid; with excessive skin weighting down lid"
+18,15,20,contact solution cleaner,29131,Application of finger splint; dynamic
+19,15,21,calamine lotion chickenpox,90676,"Rabies vaccine, for intradermal use"
+20,15,22,antiseptic solutionswash product vaginal pessary,90581,"Anthrax vaccine, for subcutaneous or intramuscular use"
+21,15,23,prescription na form,67515,Injection of medication or other substance into Tenon's capsule
+0,7,2,health service supply smoking cessation program treatment nicotine addiction,4016F,"Anti-inflammatory/analgesic agent prescribed (OA) (Use for prescribed or continued medication[s], including over-the-counter medication[s])"
+1,7,3,investigation test procedure intention ruling foetal anomaly,99461,"Initial care, per day, for evaluation and management of normal newborn infant seen in other than hospital or birthing center"
+2,7,4,treatment service contraception,00630,Anesthesia for procedures in lumbar region; not otherwise specified
+3,7,5,treatment service sex transformation sterilization correct state sterility infertility sexual dysfunction,57150,"Irrigation of vagina and/or application of medicament for treatment of bacterial, parasitic, or fungoid disease"
+4,7,6,sterilization medically law,11721,Debridement of nail(s) by any method(s); 6 or more
+5,7,7,external prosthetic device medical equipment,60699,"Unlisted procedure, endocrine system"
+6,7,8,treatment service arising result hazardous activity including limited form aerial flight kind powervehicle race water sport horse riding activity mountaineering activity violent sport judo boxing wrestling bungee jumping professional sport activity,99078,"Physician or other qualified health care professional qualified by education, training, licensure/regulation (when applicable) educational services rendered to patients in a group setting (eg, prenatal, obesity, or diabetic instructions)"
+7,7,9,growth hormone therapy,65760,Keratomileusis
+8,7,10,cost hearing test vision correction prosthetic device hearing vision aid,0316T,Vagus nerve blocking therapy (morbid obesity); replacement of pulse generator
+9,7,11,mental health disease inpatient treatment emergency condition,77399,"Unlisted procedure, medical radiation physics, dosimetry and treatment devices, and special services"
+10,7,12,patient treatment supply including example elastic stocking ace gauze syrinx diabetic test strip product nonprescription drug treatment excluding supply result healthcare service medical emergency,62370,"Electronic analysis of programmable, implanted pump for intrathecal or epidural drug infusion (includes evaluation of reservoir status, alarm status, drug prescription status); with reprogramming and refill (requiring skill of a physician or other qualified health care professional)"
+11,7,13,allergy testing desensitization testing allergy towards medication supply treatment physical psychiatric psychological examination investigation examination,92082,"Visual field examination, unilateral or bilateral, with interpretation and report; intermediate examination (eg, at least 2 isopters on Goldmann perimeter, or semiquantitative, automated suprathreshold screening program, Humphrey suprathreshold automatic diagnostic test, Octopus program 33)"
+12,7,14,service medical provider relative patient example person first degree relative,99288,"Physician or other qualified health care professional direction of emergency medical systems (EMS) emergency care, advanced life support"
+13,7,15,enteral feeding tube nutritional electrolyte supplement medically necessary inpatient treatment,77750,Infusion or instillation of radioelement solution (includes 3-month follow-up care)
+14,7,16,healthcare service adjustment spinal subluxation,28606,"Percutaneous skeletal fixation of tarsometatarsal joint dislocation, with manipulation"
+15,7,17,healthcare service treatment acupuncture acupressure hypnotism massage therapy aromatherapy ozone therapy homeopathic treatment form treatment alternative medicine,0317T,"Vagus nerve blocking therapy (morbid obesity); neurostimulator pulse generator electronic analysis, includes reprogramming when performed"
+16,7,18,healthcare service treatment invitro fertilization ivf embryo transfer ovum sperm,59100,"Hysterotomy, abdominal (eg, for hydatidiform mole, abortion)"
+0,5,2,multivitamin prescribed replacement therapy vitamin deficiency condition equipment primarily medical condition injury including limited air conditioner purifying system arch support convenience item option equipment sanitary supply,62370,"Electronic analysis of programmable, implanted pump for intrathecal or epidural drug infusion (includes evaluation of reservoir status, alarm status, drug prescription status); with reprogramming and refill (requiring skill of a physician or other qualified health care professional)"
+1,5,3,specialist single day physician,97150,"Therapeutic procedure(s), group (2 or more individuals)"
+2,5,4,health service expense organ tissue transplant insured person donor recipient,47135,"Liver allotransplantation, orthotopic, partial or whole, from cadaver or living donor, any age"
+3,5,5,service educational program handicap,4500F,Referred to an outpatient cardiac rehabilitation program (CAD)
+4,5,6,health insurance result military operation type,90970,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 20 years of age and older"
+5,5,7,result war terror type ing nuclear chemical contamination,87166,"Dark field examination, any source (eg, penile, vaginal, oral, skin); without collection"
+6,5,8,limited earthquake type natural disaster,4510F,Previous cardiac rehabilitation for qualifying cardiac event completed (CAD)
+7,5,9,insured person,26550,Pollicization of a digit
+8,5,10,complication,32120,Thoracotomy; for postoperative complications
+9,5,11,federal law,90899,Unlisted psychiatric service or procedure
+10,5,12,concerning regulation work relation applicable law,86079,"Blood bank physician services; authorization for deviation from standard blood banking procedures (eg, use of outdated blood, transfusion of Rh incompatible units), with written report"
+11,5,13,hallucinatory substance,80356,Heroin metabolite
+12,5,14,injury,28435,Closed treatment of talus fracture; with manipulation
+13,5,15,illness,86619,Antibody; Borrelia (relapsing fever)
+14,5,16,epidemic,83885,Nickel
+15,5,17,venereal sexually disease,65765,Keratophakia
+16,5,18,list respect thereto general authority health service,99056,"Service(s) typically provided in the office, provided out of the office at request of patient, in addition to basic service"
+0,4,2,enteral feeding tube nutritional electrolyte supplement medically necessary treatment,4190F,Appropriate diuretic therapeutic monitoring test ordered or performed (AM)
+1,4,3,healthcare service adjustment spinal subluxation diagnosis treatment manipulation skeletal structure treatment fracture dislocation extremity,0217T,"Injection(s), diagnostic or therapeutic agent, paravertebral facet (zygapophyseal) joint (or nerves innervating that joint) with ultrasound guidance, lumbar or sacral; second level (List separately in addition to code for primary procedure)"
+2,4,4,healthcare service treatment acupuncture acupressure hypnotism rolfing massage therapy aromatherapy homeopathic treatment form treatment alternative medicine,0317T,"Vagus nerve blocking therapy (morbid obesity); neurostimulator pulse generator electronic analysis, includes reprogramming when performed"
+3,4,5,healthcare service treatment invitro fertilization ivf embryo transport male sperm,45320,"Proctosigmoidoscopy, rigid; with ablation of tumor(s), polyp(s), or other lesion(s) not amenable to removal by hot biopsy forceps, bipolar cautery or snare technique (eg, laser)"
+4,4,6,elective diagnostic service medical treatment correction vision,43285,Removal of esophageal sphincter augmentation device
+5,4,7,nasal septum deviation nasal concha resection,31240,"Nasal/sinus endoscopy, surgical; with concha bullosa resection"
+6,4,8,chronic condition requiring hemodialysis peritoneal dialysis testtreatment procedure,90947,"Dialysis procedure other than hemodialysis (eg, peritoneal dialysis, hemofiltration, or other continuous renal replacement therapies) requiring repeated evaluations by a physician or other qualified health care professional, with or without substantial revision of dialysis prescription"
+7,4,9,treatment service related viral hepatitis complication treatment service hepatitis,90945,"Dialysis procedure other than hemodialysis (eg, peritoneal dialysis, hemofiltration, or other continuous renal replacement therapies), with single evaluation by a physician or other qualified health care professional"
+8,4,10,birth defect congenital disease newborn deformity lifethreatening,50135,"Pyelotomy; complicated (eg, secondary operation, congenital kidney abnormality)"
+9,4,11,healthcare service senile dementia alzheimers,90714,"Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
+10,4,12,air terrestrial medical evacuation emergency case unauthorised transportation service,99060,"Service(s) provided on an emergency basis, out of the office, which disrupts other scheduled office services, in addition to basic service"
+11,4,13,inpatient treatment prior approval insurance company including case medical emergency hour date admission,49587,"Repair umbilical hernia, age 5 years or older; incarcerated or strangulated"
+12,4,14,circumcision healthcare service,99429,Unlisted preventive medicine service
+13,4,15,inpatient treatment test procedure outpatient basis jeopardizing insured person health,62370,"Electronic analysis of programmable, implanted pump for intrathecal or epidural drug infusion (includes evaluation of reservoir status, alarm status, drug prescription status); with reprogramming and refill (requiring skill of a physician or other qualified health care professional)"
+14,4,16,test treatment purpose medical test related employment travel licensing insurance purpose,90882,"Environmental intervention for medical management purposes on a psychiatric patient's behalf with agencies, employers, or institutions"
+15,4,17,supply medical treatment including limited mouthwash toothpaste antiseptic milk food supplement care product,6010F,"Dysphagia screening conducted prior to order for or receipt of any foods, fluids, or medication by mouth (STR)"
+0,12,2,illness wart skin pigmentation,23931,"Incision and drainage, upper arm or elbow area; bursa"
+1,12,3,aid hiv infection,20665,Removal of tongs or halo applied by another individual
+2,12,4,sexually disease,54200,Injection procedure for Peyronie disease
+3,12,5,alcoholism alcoholic cirrhosis liver alcoholic hepatitis,3266F,Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C)
+4,12,6,eating disorder nervosa bulimia obesity,3471F,"Rheumatoid arthritis (RA) disease activity, moderate (RA)"
+5,12,7,psychiatric illness mental disorder,3091F,"Major depressive disorder, severe with psychotic features (MDD)"
+6,12,8,senility alzheimer similar degenerative disease,2015F,Asthma impairment assessed (Asthma)
+7,12,9,osteoporosis refractive error hepatitis b c treatment,90700,"Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use"
+8,12,10,injury dangerous sport activity driving parachute jumping parasailing etc,29847,"Arthroscopy, wrist, surgical; internal fixation for fracture or instability"
+9,12,11,professional sport activity,77370,Special medical radiation physics consultation
+10,12,12,suicide deliberate injury illness sane insane injury illness due nuclear contamination ionisation radiation etc,95887,"Needle electromyography, non-extremity (cranial nerve supplied or axial) muscle(s) done with nerve conduction, amplitude and latency/velocity study (List separately in addition to code for primary procedure)"
+11,12,13,injury illness due war operation civil unrest riot strike sabotage terrorism etc,29847,"Arthroscopy, wrist, surgical; internal fixation for fracture or instability"
+12,12,14,injury illness conducting participating illegal act resisting arrest accident urine blood alcohol level limit drive,62370,"Electronic analysis of programmable, implanted pump for intrathecal or epidural drug infusion (includes evaluation of reservoir status, alarm status, drug prescription status); with reprogramming and refill (requiring skill of a physician or other qualified health care professional)"
+13,12,15,pharmaceutical appetite suppressant stimulant cosmetic containing antifungal agent hair tonic moisturizers cleansing lotion cleansing solution sea water preparation ocean spray tonimer etc,0317T,"Vagus nerve blocking therapy (morbid obesity); neurostimulator pulse generator electronic analysis, includes reprogramming when performed"
+14,12,16,contraceptive form infertility drug nonmedical item milk sustagen paste lozenge aid antiseptic cottonrolls,92312,"Prescription of optical and physical characteristics of and fitting of contact lens, with medical supervision of adaptation; corneal lens for aphakia, both eyes"
+15,12,17,slimming product,29730,Windowing of cast
+0,13,2,dental product zymaflour dental floss etc,4120F,"Antibiotic prescribed or dispensed (URI, PHAR), (A-BRONCH)"
+1,13,3,sexual disorder drug patch rollons rubefacient rub polar frost similarity medicine containing montelukasts bronchial asthma liver liv essentiale sylimarine legalon lubricant eye dry eye contact lens solution cleaner lotion chickenpox antiseptic solutionswash product vaginal pessary prescription claim form,90682,"Influenza virus vaccine, quadrivalent (RIV4), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
+2,13,4,surgical implant apphances equipment prosthesis body course surgical procedure andor purpose,54411,"Removal and replacement of all components of a multi-component inflatable penile prosthesis through an infected field at the same operative session, including irrigation and debridement of infected tissue"
+3,13,5,surgical procedure treatment cosmetic plastic surgery treatment,52224,"Cystourethroscopy, with fulguration (including cryosurgery or laser surgery) or treatment of MINOR (less than 0.5 cm) lesion(s) with or without biopsy"
+4,13,6,nasal septum,90287,"Botulinum antitoxin, equine, any route"
+5,13,7,congenital malformation birth defect,30460,"Rhinoplasty for nasal deformity secondary to congenital cleft lip and/or palate, including columellar lengthening; tip only"
+6,13,8,organ donation expense donor acquisition organ,01990,Physiological support for harvesting of organ(s) from brain-dead patient
+7,13,9,renal dialysis,90845,Psychoanalysis
+8,13,10,corrective surgery strabismus myopia hypermetropia astigmatism,64615,"Chemodenervation of muscle(s); muscle(s) innervated by facial, trigeminal, cervical spinal and accessory nerves, bilateral (eg, for chronic migraine)"
+9,13,11,surgery fitting contraceptive implant device,65105,"Enucleation of eye; with implant, muscles attached to implant"
+10,13,12,experimental medical treatment,5200F,Consideration of referral for a neurological evaluation of appropriateness for surgical therapy for intractable epilepsy within the past 3 years (EPI)
+11,13,13,treatment physician licensed work u,4060F,"Psychotherapy services provided (MDD, MDD ADOL)"
+12,13,14,,84143,17-hydroxypregnenolone
+13,13,15,e,3120F,12-Lead ECG Performed (EM)
+14,13,16,treatment investigation preapproval preapproval,79999,"Radiopharmaceutical therapy, unlisted procedure"
+15,13,17,maternity menopause contraception infertility,46751,"Sphincteroplasty, anal, for incontinence or prolapse; child"
+16,13,18,illegal abortion,81099,Unlisted urinalysis procedure
+17,13,19,infertility treatment investigation sexual dysfunction measure,4526F,Neuropsychiatric intervention received (DEM)
+0,1,2,exclusion click link uae exclusion abu dhabi dubai northern international exclusion general pharmacy exclusion,92314,"Prescription of optical and physical characteristics of contact lens, with medical supervision of adaptation and direction of fitting by independent technician; corneal lens, both eyes except for aphakia"
+0,3,2,healthcare service authorised healthcare service provider apart service medical emergency,99288,"Physician or other qualified health care professional direction of emergency medical systems (EMS) emergency care, advanced life support"
+1,3,3,healthcare service treatment associated expense baldness hair falling dandruff wig,54390,Plastic operation on penis for epispadias distal to external sphincter; with exstrophy of bladder
+2,3,4,supply treatment service smoking cessation program treatment nicotine addiction,4004F,"Patient screened for tobacco use and received tobacco cessation intervention (counseling, pharmacotherapy, or both), if identified as a tobacco user (PV, CAD)"
+3,3,5,nonmedically necessary amniocentesis,91299,Unlisted diagnostic gastroenterology procedure
+4,3,6,treatment service surgery transformation sterility sterilization,64787,Implantation of nerve end into bone or muscle (List separately in addition to neuroma excision)
+5,3,7,treatment service contraception,00630,Anesthesia for procedures in lumbar region; not otherwise specified
+6,3,8,treatment service fertility sterility treatment including varicocele polycystic ovary ovarian cyst hormonal disturbance sexual dysfunction,57150,"Irrigation of vagina and/or application of medicament for treatment of bacterial, parasitic, or fungoid disease"
+7,3,9,prosthetic device medical equipment insurance company,94016,Patient-initiated spirometric recording per 30-day period of time; review and interpretation only by a physician or other qualified health care professional
+8,3,10,treatment service arising result hazardous activity including limited form aerial flight kind powervehicle race water sport horse riding activity mountaineering activity violent sport judo boxing wrestling bungee jumping professional sport activity,99078,"Physician or other qualified health care professional qualified by education, training, licensure/regulation (when applicable) educational services rendered to patients in a group setting (eg, prenatal, obesity, or diabetic instructions)"
+9,3,11,growth hormone therapy,65760,Keratomileusis
+10,3,12,cost hearing test vision correction prosthetic device hearing vision aid,0316T,Vagus nerve blocking therapy (morbid obesity); replacement of pulse generator
+11,3,13,mental health disease inpatient outpatient treatment condition transient mental disorder acute reaction stress,96904,"Whole body integumentary photography, for monitoring of high risk patients with dysplastic nevus syndrome or a history of dysplastic nevi, or patients with a personal or familial history of melanoma"
+12,3,14,patient treatment supply including elastic stocking ace gauze syrinx diabetic test strip product nonprescription drug treatment excluding supply result healthcare service medical emergency,62370,"Electronic analysis of programmable, implanted pump for intrathecal or epidural drug infusion (includes evaluation of reservoir status, alarm status, drug prescription status); with reprogramming and refill (requiring skill of a physician or other qualified health care professional)"
+13,3,15,preventive service including vaccination immunization testing desensitization physical psychiatric psychological examination testing examination,88143,"Cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation; with manual screening and rescreening under physician supervision"
+14,3,16,service medical provider relevant patient example person insured member family including spouse brother sister parent child,99366,"Medical team conference with interdisciplinary team of health care professionals, face-to-face with patient and/or family, 30 minutes or more, participation by nonphysician qualified health care professional"
+0,11,2,international exclusion excluding uae,87176,"Homogenization, tissue, for culture"
+1,11,3,alternative therapy including limited acupuncture chiropractice osteopathy hydrotherapy homeopathy herbal ayurvedic treatment spa mud treatment thalassotherapy lymphatic drainage magnotherapy etc,0315T,Vagus nerve blocking therapy (morbid obesity); removal of pulse generator
+2,11,4,weight control counseling program treatment etc,4450F,Self-care education provided to patient (HF)
+3,11,5,smoking cessation nicotine addiction treatment,4063F,Antidepressant pharmacotherapy considered and not prescribed (MDD ADOL)
+4,11,6,drug alcohol substance abuse addiction treatment,3091F,"Major depressive disorder, severe with psychotic features (MDD)"
+5,11,7,long term care facility,99512,Home visit for hemodialysis
+6,11,8,g,84630,Zinc
+7,11,9,sanitoriums old age home,1110F,"Patient discharged from an inpatient facility (eg, hospital, skilled nursing facility, or rehabilitation facility) within the last 60 days (GER)"
+8,11,10,home care,99504,Home visit for mechanical ventilation care
+9,11,11,consultation psychiatric consultation,90837,"Psychotherapy, 60 minutes with patient"
+10,11,12,dietician consultation service insurance work medical disability evaluation,77370,Special medical radiation physics consultation
+11,11,13,preventative care general medical checkup,69220,"Debridement, mastoidectomy cavity, simple (eg, routine cleaning)"
+12,11,14,doctor visit,99506,Home visit for intramuscular injections
+13,11,15,diagnostics drug testing,85635,Reptilase test
+14,11,16,sion screening test eye optical service,0469T,"Retinal polarization scan, ocular screening with on-site automated results, bilateral"
+15,11,17,preventative screening test,91299,Unlisted diagnostic gastroenterology procedure
+16,11,18,desensitization allergen test,86403,"Particle agglutination; screen, each antibody"
+17,11,19,genetic testing,86308,Heterophile antibodies; screening
+18,11,20,durable medical equipment medical supply external prosthesis operating requirement andor maintenance durable medical equipment supply personal convenience item home use,99002,"Handling, conveyance, and/or any other service in connection with the implementation of an order involving devices (eg, designing, fitting, packaging, handling, delivery or mailing) when devices such as orthotics, protectives, prosthetics are fabricated by an outside laboratory or shop but which items have been designed, and are to be fitted and adjusted by the attending physician or other qualified health care professional"
+19,11,21,external prosthesis orthotics protective device sensory speech assistive device,62361,Implantation or replacement of device for intrathecal or epidural drug infusion; nonprogrammable pump
+0,10,2,international exclusion excluding uae,87176,"Homogenization, tissue, for culture"
+0,2,2,emirate abu dhabi nonvip exclusion,81209,"BLM (Bloom syndrome, RecQ helicase-like) (eg, Bloom syndrome) gene analysis, 2281del6ins7 variant"
+1,2,3,healthcare service medically necessary,99359,Prolonged evaluation and management service before and/or after direct patient care; each additional 30 minutes (List separately in addition to code for prolonged service)
+2,2,4,expense relating dental treatment dental prosthesis orthodontic treatment,51600,Injection procedure for cystography or voiding urethrocystography
+3,2,5,domiciliary care private nursing care care sake travelling,6005F,"Rationale (eg, severity of illness and safety) for level of care (eg, home, hospital) documented (CAP)"
+4,2,6,custodial care,85525,Heparin neutralization
+5,2,7,nonmedical treatment service b,99429,Unlisted preventive medicine service
+6,2,8,service improve result change medical condition patient,6090F,Patient (or caregiver) counseled about safety issues appropriate to patient's stage of disease (Prkns)
+7,2,9,service continuous administration medical personnel,99056,"Service(s) typically provided in the office, provided out of the office at request of patient, in addition to basic service"
+8,2,10,personal comfort convenience item television beauty service service similar incidental service supply,99070,"Supplies and materials (except spectacles), provided by the physician or other qualified health care professional over and above those usually included with the office visit or other services rendered (list drugs, trays, supplies, or materials provided)"
+9,2,11,healthcare service expense replacement existing breast implant,19340,"Immediate insertion of breast prosthesis following mastopexy, mastectomy or in reconstruction"
+10,2,12,cosmetic operation physical appearance related injury sickness congenital anomaly primary purpose physiological functioning part body,66982,"Extracapsular cataract removal with insertion of intraocular lens prosthesis (1-stage procedure), manual or mechanical technique (eg, irrigation and aspiration or phacoemulsification), complex, requiring devices or techniques not generally used in routine cataract surgery (eg, iris expansion device, suture support for intraocular lens, or primary posterior capsulorrhexis) or performed on patients in the amblyogenic developmental stage"
+11,2,13,breast reconstruction following mastectomy cancer,69511,Mastoidectomy; radical
+12,2,14,surgical nonsurgical treatment obesity including morbid obesity control program service supply,27256,"Treatment of spontaneous hip dislocation (developmental, including congenital or pathological), by abduction, splint or traction; without anesthesia, without manipulation"
+13,2,15,medically nonapproved experimental research investigational healthcare service treatment device pharmacological regimen,77336,"Continuing medical physics consultation, including assessment of treatment parameters, quality assurance of dose delivery, and review of patient treatment documentation in support of the radiation oncologist, reported per week of therapy"

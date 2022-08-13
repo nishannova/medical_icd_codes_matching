@@ -7,19 +7,21 @@ logger.getLogger().setLevel(logger.INFO)
 
 from transformers import BertTokenizer, BertModel, AutoTokenizer, AutoModel
 
-from config import PICKLE_FOLDER, CPT_CODE_FILE
+from config import PICKLE_FOLDER, CPT_CODE_FILE, BERT_PRETRAINED
 from utils import ClinicalBert_embeddings,clean_text
 
 
 
 
 def match_similarity(ocr_df):
-    new_df=ocr_df[~ocr_df.page.isin([1,10])]
+    # new_df=ocr_df[~ocr_df.page.isin([1,10])]
+    new_df=ocr_df.copy()
     cpt_df=pd.read_excel(CPT_CODE_FILE)
    
     new_df1 = new_df[~(new_df.text.str.contains("Non-VIP") | new_df.text.str.contains("Pharmacy Exclusions"))]
-    tokenizer = AutoTokenizer.from_pretrained("    /Bio_ClinicalBERT")
-    model = AutoModel.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
+    tokenizer = AutoTokenizer.from_pretrained(BERT_PRETRAINED)
+    model = AutoModel.from_pretrained(BERT_PRETRAINED)
+    
     overall_code=[]
     
     
