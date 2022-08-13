@@ -13,7 +13,7 @@ import os
 import gc
 import time
 from utils import clean_text
-from config import CPT_CODE_FILE, PICKLE_FOLDER
+from config import CPT_CODE_FILE, PICKLE_FOLDER, BERT_PRETRAINED
 
 
 def persist_embedding():
@@ -38,8 +38,8 @@ def persist_embedding():
     logger.info(cpt_df.head())
 
     pickle_path = PICKLE_FOLDER
-    tokenizer = AutoTokenizer.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
-    model = AutoModel.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
+    tokenizer = AutoTokenizer.from_pretrained(BERT_PRETRAINED)
+    model = AutoModel.from_pretrained(BERT_PRETRAINED)
 
     
     
