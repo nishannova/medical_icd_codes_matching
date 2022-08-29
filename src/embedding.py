@@ -13,7 +13,7 @@ import os
 import gc
 import time
 from utils import clean_text
-from config import CPT_CODE_FILE, PICKLE_FOLDER, BERT_PRETRAINED
+from config import CPT_CODE_FILE, PICKLE_FOLDER, BERT_PRETRAINED, HELPER_IN_PT_PATH, PICKLE_DIR_IN_PT
 
 
 def persist_embedding():
@@ -28,16 +28,16 @@ def persist_embedding():
     
     start = time.time()
     start_1 = time.time()
-    cpt_df=pd.read_excel(CPT_CODE_FILE)
+    cpt_df=pd.read_excel(HELPER_IN_PT_PATH)
     
     ###### Preprocessing the Full Description column
-    cpt_df["FULL_DESCRIPTION"] = cpt_df["FULL_DESCRIPTION"].apply(clean_text)
+    cpt_df["FULL_DESCRIPTION"] = cpt_df["Description "].apply(clean_text)
     
     
     
     logger.info(cpt_df.head())
 
-    pickle_path = PICKLE_FOLDER
+    pickle_path = PICKLE_DIR_IN_PT
     tokenizer = AutoTokenizer.from_pretrained(BERT_PRETRAINED)
     model = AutoModel.from_pretrained(BERT_PRETRAINED)
 
@@ -56,10 +56,12 @@ def persist_embedding():
         try:
             
             embeddings = ClinicalBert_embeddings(row["FULL_DESCRIPTION"]) #TODO: Pre-processed text inputs
+            if not embeddings.sum():
+                print(f"Embedded not found for description: {row['FULL_DESCRIPTION']}", file=open("/Users/nishanali/WorkSpace/text_mapping/data/log/encoding.txt", "a+"))
         except Exception as ex:
             logger.error(f"Error: {ex} Occurred")
             continue
-        cpt_embeddings[row["CPT_CODE"]] = embeddings
+        cpt_embeddings[row["Code "]] = embeddings
         if count % 500 == 0 and count > 1:        
             with open(os.path.join(pickle_path, str(batch)+".pickle"), "wb") as handle:
                 pickle.dump(cpt_embeddings, handle)

@@ -1,5 +1,6 @@
 #Utils
 
+from itertools import count
 import os
 import logging as logger
 import pytesseract
@@ -79,30 +80,39 @@ stopword=set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
 def clean_text(text):
-    tag = None
-    text = str(text).lower()
-    text = re.sub('\[.*?\]', '', text)
+    # tag = None
+    # text = str(text).lower()
+    # text = re.sub('\[.*?\]', '', text)
     # text = re.sub('https?://\S+|www\.\S+', '', text)
-    text = re.sub('<.*?>+', '', text)
-    text = re.sub('[%s]' % re.escape(string.punctuation), '', text)
-    text = re.sub('\n', '', text)
-    text = re.sub('\w*\d\w*', '', text)     # /w* Matches Unicode word characters; 
-    text = re.compile('[/(){}\[\]\|@,;]').sub(' ', text)
-    text = re.compile('[^0-9a-z #+_]').sub('', text)  
-    text = [word for word in text.split(' ') if word not in stopword]
-    text=" ".join(text)
-    tokenized = sent_tokenize(text)
-    for i in tokenized:
-        words = nltk.word_tokenize(i)
-        tag = nltk.pos_tag(words)
-    l = ['NNP', 'NNS', 'NN', 'RB', 'JJ', 'VBG', "CD"]
-    text_new = []
-    if tag:
-        for i in tag:
-            if i[1]  in l:
-                text_new.append(i[0])
+    # text = re.sub('<.*?>+', '', text)
+    # text = re.sub('[%s]' % re.escape(string.punctuation), '', text)
+    # text = re.sub('\n', '', text)
+    # text = re.sub('\w*\d\w*', '', text)     # /w* Matches Unicode word characters; 
+    # text = re.compile('[/(){}\[\]\|@,;]').sub(' ', text)
+    # text = re.compile('[^0-9a-z #+_]').sub('', text)  
+    # text = [word for word in text.split(' ') if word not in stopword]
+    # text=" ".join(text)
+    # tokenized = sent_tokenize(text)
+    # for i in tokenized:
+    #     words = nltk.word_tokenize(i)
+    #     tag = nltk.pos_tag(words)
+    # l = ['NNP', 'NNS', 'NN', 'RB', 'JJ', 'VBG', "CD"]
+    # text_new = []
+    # if tag:
+    #     for i in tag:
+    #         if i[1]  in l:
+    #             text_new.append(i[0])
 
-    text = [lemmatizer.lemmatize(word) for word in text_new]    ## POS tagger ###Change to lemmetization 
-    text=" ".join(text)
+    # text = [lemmatizer.lemmatize(word) for word in text_new]    ## POS tagger ###Change to lemmetization 
+    # text = [word for word in text_new]
+    # text=" ".join(text)
     return text
 
+def calculate_accuracy(x):
+    x["Score"] = 0
+    for idx, row in x.iterrows():
+        if row["Code "]==row["CODE"]:
+            x.iloc[idx, x.columns.get_loc('Score')] = 1
+    print(f"ACCURACY: {x['Score'].sum()/x['Score'].count()}")  
+    
+    return x

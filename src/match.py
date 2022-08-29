@@ -7,7 +7,7 @@ logger.getLogger().setLevel(logger.INFO)
 
 from transformers import BertTokenizer, BertModel, AutoTokenizer, AutoModel
 
-from config import PICKLE_FOLDER, CPT_CODE_FILE, BERT_PRETRAINED
+from config import PICKLE_FOLDER, CPT_CODE_FILE, BERT_PRETRAINED, HELPER_IN_PT_PATH, PICKLE_DIR_IN_PT
 from utils import ClinicalBert_embeddings,clean_text
 
 
@@ -16,9 +16,10 @@ from utils import ClinicalBert_embeddings,clean_text
 def match_similarity(ocr_df):
     # new_df=ocr_df[~ocr_df.page.isin([1,10])]
     new_df=ocr_df.copy()
-    cpt_df=pd.read_excel(CPT_CODE_FILE)
+    cpt_df=pd.read_excel(HELPER_IN_PT_PATH)
    
-    new_df1 = new_df[~(new_df.text.str.contains("Non-VIP") | new_df.text.str.contains("Pharmacy Exclusions"))]
+    # new_df1 = new_df[~(new_df.text.str.contains("Non-VIP") | new_df.text.str.contains("Pharmacy Exclusions"))]
+    new_df1 = new_df.copy()
     tokenizer = AutoTokenizer.from_pretrained(BERT_PRETRAINED)
     model = AutoModel.from_pretrained(BERT_PRETRAINED)
     
@@ -26,15 +27,15 @@ def match_similarity(ocr_df):
     
     
     
-    for file_name in os.listdir(PICKLE_FOLDER):
+    for file_name in os.listdir(PICKLE_DIR_IN_PT):
         logger.warning(f"PROCESSING PICKLE: {file_name}")
-        infile=open(os.path.join(PICKLE_FOLDER,file_name),"rb")
+        infile=open(os.path.join(PICKLE_DIR_IN_PT,file_name),"rb")
         pkl_dict=pickle.load(infile)
         infile.close()
         code=[]
         for _,row in new_df1.iterrows():
             sim_dict=dict()
-            cls_emb=ClinicalBert_embeddings(row["text"], tokenizer, model) #TODO: Pre-process text
+            cls_emb=ClinicalBert_embeddings(row["Nphies Description 1 "], tokenizer, model) #TODO: Pre-process text
             for i in pkl_dict:
                 s=cosine_similarity(cls_emb.detach().numpy().reshape(1,-1),pkl_dict[i].detach().numpy().reshape(1,-1))[0][0]
                 sim_dict[i]=s
@@ -49,7 +50,7 @@ def match_similarity(ocr_df):
             L.append(overall_code[num_pkl][num_text])
         final_code.append(sorted(L,key=lambda x:x[1])[-1][0])
         code = sorted(L,key=lambda x:x[1])[-1][0]
-        final_text.append(str(cpt_df[cpt_df["CPT_CODE"]==code].FULL_DESCRIPTION.values[0]))
+        final_text.append(str(cpt_df[cpt_df["Code "]==code]["Description "].values[0]))
 
     new_df1["CODE"]=final_code
     new_df1["Matched_Description"]=final_text

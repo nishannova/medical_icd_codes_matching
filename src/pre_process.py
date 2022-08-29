@@ -6,10 +6,12 @@ import re
 import logging as logger 
 logger.getLogger().setLevel(logger.INFO)
 
-from config import OUTPUT_FOLDER, ATTRIBUTES
+from config import OUTPUT_FOLDER, ATTRIBUTES, EXEC, HELPER_IN_PT_PATH
 from utils import ocr_hocr, get_ocr_df,clean_text
 
 def get_processed_ocr_df():
+    if EXEC=="nphi":
+        return pd.read_excel(HELPER_IN_PT_PATH)
     ocr_df = pd.DataFrame(columns=ATTRIBUTES)
     logger.info("PROCESSING BEGINS")
     for page_path in os.listdir(OUTPUT_FOLDER):

@@ -9,8 +9,9 @@ import time
 
 import logging as logger 
 logger.getLogger().setLevel(logger.INFO)
-
+import sys
 from config import RESULT_FOLDER
+from utils import calculate_accuracy
 
 def run():
     start = time.time()
@@ -29,6 +30,7 @@ def run():
     logger.info(f"\nSIMILARITY MATCHING TOOK: {time.time() - start_1} Secs.\n")
     output_file = os.path.join(RESULT_FOLDER, "matched_res.csv")
     logger.info(f"\nENTIRE PROCESSING TOOK: {time.time() - start} Secs.\n")
+    matched_res = calculate_accuracy(matched_res)
     matched_res.to_csv(output_file)
 
 if __name__ == "__main__":
